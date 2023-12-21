@@ -9,7 +9,15 @@ body{
 	height: 100vh;
 	overflow-x: hidden;
 }
-
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+}
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .container{
 	position: relative;
 	width: 100%;
@@ -21,6 +29,13 @@ body{
 	background-repeat: no-repeat;
 }
 
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5em;
+}
 .text-content{
 	position: absolute;
 	top: 50%;
