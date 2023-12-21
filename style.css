@@ -29,7 +29,7 @@ h2{
 	background-repeat: no-repeat;
 }
 
-.centered{
+h1{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -37,7 +37,7 @@ h2{
     font-size: 5em;
 }
 
-.subCenter{
+h2{
     position: absolute;
 	left: 50%;
 	top: 60%;
