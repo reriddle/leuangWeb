@@ -8,7 +8,9 @@ body{
 	width: 100vw;
 	height: 100vh;
 	overflow-x: hidden;
+	font-family: Arial, Helvetica, sans-serif;
 }
+
 h1{
 	text-align: center;
     font-size: 4em;
@@ -16,6 +18,7 @@ h1{
 	top: 50%;
     left: 50%;
 	position: absolute;
+	font-family: Arial, Helvetica, sans-serif;
 }
 h2{
 	text-align: center;
@@ -23,6 +26,7 @@ h2{
 	transform: translate(-50%, -50%);
 	top: 65%;
     left: 50%;
+	font-family: Arial, Helvetica, sans-serif;
 }
 h3{
 	text-align: center;
@@ -46,7 +50,11 @@ section {
 	display: flex;
 	position: relative;
 }
-
+footer{
+	background-color: darkslategrey;
+	padding: 10px;
+	text-align: center;
+}
 .container{
 	position: relative;
 	width: 100%;
